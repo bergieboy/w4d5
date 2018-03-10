@@ -1,0 +1,44 @@
+// Use the gear_dropdown.png screenshot as a style guide
+// <ul id="gear-dropdown" class="gear-dropdown hidden">
+// 	<li>
+// 		<ul class="editions">
+// 			<span class="dropdown-subtitle">Edition</span>
+// 			<li><a href="#">CSS</a></li>
+// 			<li><a href="#">HTML</a></li>
+// 			<li><a href="#">Javascript</a></li>
+// 			<li><a href="#">Ruby</a></li>
+// 		</ul>
+// 	</li>
+// 	<li>
+// 		<span class="dropdown-subtitle">Help</span>
+// 		<ul class="help">
+// 			<li><a href="#">FAQ</a></li>
+// 			<li><a href="#">Contact Us</a></li>
+// 		</ul>
+// 	</li>
+// </ul>
+
+.gear-dropdown {
+  width: 260px;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px;
+  top: 47px;
+}
+
+
+.gear-dropdown li {
+  position: relative;
+
+}
+
+.gear-dropdown .edition li {
+  background-color: grey;
+
+}
+
+
+.gear-dropdown .help li {
+  color: $blue;
+  text-decoration: underline $blue;
+}
